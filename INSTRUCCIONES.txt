@@ -1,0 +1,17 @@
+FISHING PRO - INSTALACION EN GITHUB
+
+IMPORTANTE: No subas el ZIP sin descomprimir: GitHub necesita los archivos y carpetas interiores.
+
+1. Abre https://github.com/8kratos8-maker/Fishing-Pro
+2. Entra en Code, selecciona la rama main.
+3. Pulsa Add file > Upload files (si no aparece en móvil, activa Vista para ordenador).
+4. Descomprime el ZIP y sube los archivos CONSERVANDO las carpetas y sus rutas.
+   Atención: la subida de carpetas es más sencilla desde un ordenador; en móvil puedes usar
+   el editor de GitHub para crear cada archivo por su ruta.
+5. Confirma con Commit changes. El archivo .github/workflows/android.yml debe reemplazar al vacío.
+6. Abre Actions > Compilar APK Fishing Pro y espera el resultado.
+7. Si es verde, entra en el run y descarga FishingPro-APK desde Artifacts.
+8. Descomprime el artifact y abre app-debug.apk en tu Android.
+
+NOTA: La app es una primera versión funcional, no una versión final de tienda.
+Los mapas y la meteorología requieren conexión. No se ha probado aún la compilación en GitHub.
